@@ -1,0 +1,57 @@
+@import "../../vars.css";
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 0px;
+
+}
+
+.Footer {
+    background: linear-gradient(180deg,var(--color-secondary) , var(--color-bg) );
+    color: #fff;
+    padding: 120px 0 0px 0;
+    text-align: center;
+    height: 350px;
+    position: relative;
+    top: 150px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footerContent {
+    margin-bottom: 10px;
+}
+
+.footerContent p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.sociaLinks {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.socialLinks li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.socialLinks a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.socialLinks a:hover {
+    color: var(--color-primary);
+}

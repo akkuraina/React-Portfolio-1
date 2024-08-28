@@ -1,0 +1,87 @@
+@import "../../vars.css";
+
+
+.progress{
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 50px;
+    text-align: center;
+    font-size: 26px;
+    color: var(--color-primary);
+
+}
+
+.progressBar{
+    height: 5px;
+    background-color: wheat;
+}
+
+section{
+    height: 500px;
+    /* background: linear-gradient(180deg, var(--color-bg), var(--color-secondary) ); */
+}
+
+.Projects{
+    padding-top: 300px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.textContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: hidden;
+
+}
+
+.textContainer h2{
+    font-size: 42px;
+}
+
+.textContainer p{
+    color: gray;
+    font-size: 20px;
+}
+
+.Wrapper{
+    max-width: 1366px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer{
+    flex: 1;
+    height: 50%;
+}
+
+.projectButton{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: var(--color-primary);
+}
+
+.projectButton:hover{
+    cursor: pointer;
+    background-color: #ed5114;
+}

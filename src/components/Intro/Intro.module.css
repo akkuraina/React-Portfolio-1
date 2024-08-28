@@ -1,0 +1,61 @@
+@import "../../vars.css";
+
+
+.Intro{
+    height: 600px;
+    background: linear-gradient(180deg , #0e1014, var(--color-secondary));
+    overflow:auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.imageContainer{
+    position: absolute;
+    top: 150px;
+    right: 7vw;
+
+}
+.imageContainer img{
+    height: 350px;
+    width: auto;
+}
+
+.textContainer{
+    padding: 200px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.textContainer h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: 700;
+    color: var(--color-primary);
+    letter-spacing: 5px;
+}
+
+.textContainer h1{
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.textContainer button{
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.slidingTextContainer{
+    position: absolute;
+    font-size: 50vh;
+    bottom: -60px;
+    white-space: nowrap;
+    color: rgba(99, 93, 93, 0.473);
+    width: 50%;
+    font-weight: bold;
+}

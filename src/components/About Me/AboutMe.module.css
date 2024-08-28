@@ -1,0 +1,70 @@
+@import "../../vars.css";
+
+
+.aboutContainer{
+    background: linear-gradient(180deg, var(--color-secondary), #0e1014);
+    height: 800px;
+    display: flex;
+    padding-top: 100px;
+}
+
+.aboutContainer h2{
+    padding: 50px 0 0 300px;
+    color: var(--color-primary);
+    font-size: 30px;
+}
+
+.pointsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 100px;
+    gap: 50px;
+    font-size: 25px;
+    padding: 60px 0 0 20px;
+    max-width: 50vw;
+    
+}
+
+.myPicContainer img{
+    height: 450px;
+    width: auto;
+    opacity: 0.9;
+    border-radius: 50px;
+    border: 5px solid var(--color-secondary) ;
+}
+
+.myPicContainer{
+    position: absolute;
+    top: 900px;
+    left: 200px;
+}
+
+.pointsContainer img{
+    height: 20px;
+    width: auto;
+}
+
+.logoAndPara{
+    display: flex;
+    gap: 25px;
+    width: 50vw;
+}
+.logoAndPara img{
+    height: 50px;
+    width: auto;
+}
+
+.pointsContainer h3{
+    padding-left: 53px;
+}
+
+.pointBox{
+    padding: 27px;
+    background: linear-gradient(90deg, rgba(165, 215, 232, 0.42), rgba(255, 255, 255, 0));
+    border-radius: 10px;
+}
+
+
+

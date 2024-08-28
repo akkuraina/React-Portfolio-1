@@ -1,0 +1,83 @@
+@import "../../vars.css";
+
+
+.container{
+    height: 650px;
+    padding-top: 40px;
+    background: linear-gradient(180deg, #0e1014, var(--color-secondary) );
+    
+}
+
+.wrapper h2{
+    padding-left: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: var(--color-primary);
+    font-size: 50px;
+}
+
+.experienceList img{
+    height: 30px;
+    position: relative;
+    top: 66px;
+}
+
+.experienceListContainer{
+    display: flex;
+    padding-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.experienceUl{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    list-style: none;
+    
+}
+
+.experienceListContainer p{
+    color: rgba(169, 167, 167, 0.784);
+    font-size: 20px;
+    max-width: 310px;
+}
+
+.experienceCircle{
+    border: 1px solid rgba(112, 109, 102, 0.924);
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 50vw;
+    bottom: 60vh;
+    border-radius: 50%;
+}
+
+.experienceCircle img{
+    height: 10vh;
+    left: 164px;
+    top: 154px;
+    position: relative;
+}
+
+.skillIconContainer{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.skillIconContainer img{
+    height: 30px;
+    position: absolute;
+    bottom: 923px;
+    left: 63vw;
+    transform-origin: 150px 150px;
+}
+
+.images:nth-child(1) { transform: rotate(0deg) translate(120px); }
+.images:nth-child(2) { transform: rotate(72deg) translate(120px); }
+.images:nth-child(3) { transform: rotate(144deg) translate(120px); }
+.images:nth-child(4) { transform: rotate(216deg) translate(120px); }
+.images:nth-child(5) { transform: rotate(288deg) translate(120px); }
