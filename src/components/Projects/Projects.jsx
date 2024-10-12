@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import styles from './Projects.module.css'
-import {motion, useScroll, useSpring, useTransform, } from 'framer-motion'
+import {motion, useScroll, useTransform, } from 'framer-motion'
 
 const items = [
     {
